@@ -1,13 +1,13 @@
 cask "kido-teacher" do
-  version "2.0.2"
+  version "2.0.1"
 
   on_arm do
-    sha256 "43ade0731eef0022201c8bddbf2654b76aa9eb1225b3ba7578e46bf03bb11b6f"
+    sha256 "28d0c8f4fd8ca33ae88f4584f91d76dece9ec87ec8fcb731aab55313a3d3f0e7"
     url "https://github.com/phuocyota/SimpleLoginApp/releases/download/v#{version}/Kido-Teacher-macos-arm64.zip"
   end
 
   on_intel do
-    sha256 "c50c088d1e9a2fd4beb2fe062782bafa4957c48b0ef420583f299955bdc2ba06"
+    sha256 "206c95f4b9b055d76b7300deea7b1f1a8cd3423154859b1f5ffe7bffcc130bc4"
     url "https://github.com/phuocyota/SimpleLoginApp/releases/download/v#{version}/Kido-Teacher-macos-x64.zip"
   end
 
